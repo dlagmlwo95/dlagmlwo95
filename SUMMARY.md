@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [note](note.md)
+* [생활코딩](note.md)
 
