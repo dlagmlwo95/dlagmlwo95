@@ -10,7 +10,7 @@
 이벤트 onclick 뒤엔 자바스크립트가 와야함, 
 
 5화 HTML과 JS의 만남\(콘솔 console\)  
-length 문자의 갯수를 알려주는 코  
+length 문자의 갯수를 알려주는 코드   
   
 
 
