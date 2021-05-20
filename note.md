@@ -12,7 +12,9 @@
 5화 HTML과 JS의 만남\(콘솔 console\)  
 length 문자의 갯수를 알려주는 코드   
   
+6화 데이터타입 - 문자열과 숫자  
+'문자열'
 
-
-
+12화 제어할 태그 선택하기  
+onclick= "document.querySelector\('body'\).style.background-color = 'black'; "
 
