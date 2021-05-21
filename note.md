@@ -18,3 +18,13 @@ length 문자의 갯수를 알려주는 코드
 12화 제어할 태그 선택하기  
 onclick= "document.querySelector\('body'\).style.background-color = 'black'; "
 
+14화 조건문 예고  
+if else
+
+15화 비교 연산자와 블리언  
+Number String\(문자열\) Boolean\(true,false\)  
+true false 를 블리언이라고 함.
+
+16  
+
+
