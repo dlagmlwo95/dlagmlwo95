@@ -36,3 +36,6 @@ else{}
 배열은 \[ \] \(대괄호\)  
 검색 javascript array 해서 알아보기 \(push 등등\)
 
+21화 반복문\(Loop\)  
+while\(\)
+
