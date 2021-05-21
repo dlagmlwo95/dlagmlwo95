@@ -39,3 +39,26 @@ else{}
 21화 반복문\(Loop\)  
 while\(\)
 
+```text
+22화 배열과 반복문
+
+<h1>Loop & Array</h1>
+<script>
+    var coworkers = ['egoing','leezche','duru','taeho'];
+</script>
+<h2>Co workers</h2>
+<ul>
+    <script>
+        var i = 0;
+        while(i < coworkers.length ){
+        document.write('<li>'+coworkers[i]+'</li>');
+        i = i + 1;
+        }
+    </script>
+    
+    
+    
+```
+
+
+
