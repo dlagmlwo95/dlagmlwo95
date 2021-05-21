@@ -25,6 +25,12 @@ if else
 Number String\(문자열\) Boolean\(true,false\)  
 true false 를 블리언이라고 함.
 
-16  
+16화 조건문  
+if\(\){}  
+else{}
+
+18화 리팩토링 중복의 제거  
+리팩토링 : 코딩을 효율적으로 만드는 것
+
 
 
