@@ -115,5 +115,7 @@ document.querySelector\('body'\).style.color = color 에서
         document.write("data scientist : " + coworkers["data scientist"] + "<br>");
 ```
 
-객체에 소속된 함수를 메소드라고 한
+객체에 소속된 함수를 메소드라고 한다\(document\)
+
+#### 33화 객체의 활용 이해가 되지 않음!
 
