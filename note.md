@@ -60,7 +60,31 @@ while\(\)
     
 ```
 
+24화 함수예고 25화 함수  
+function nightDayHandler\(self\){ }  함수를 사용하여 묶음.  
+사용시 nightDayHandler\(this\) &lt;-함수명만 사용하면 됨.  
+function two\(\){}         
+사용시 two\(\);
 
+```text
+26화 함수 : 매개변수와 인자
+Parameter(매개변수) & Argument(인자) 
+sum(매개변수 left, right)
+sum(인자 2,3)
+
+
+        function onePlusOne(){
+            document.write(1+1+'<br>');
+        }
+        onePlusOne();
+        function sum(left, right){
+            document.write(left+right+'<br>');
+        }
+        sum(2,3);    //5
+        sum(3,4);    //7
+```
+
+27화 함수\(리턴\)  이해가 되지 않음! 
 
 
 
