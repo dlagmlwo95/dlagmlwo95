@@ -1,6 +1,6 @@
 # 생활코딩
 
-생활코딩 자바스크립트 노트
+## 생활코딩 자바스크립트 노트
 
 2화 수업의 목적  
 1.자바스크립트는 사용자와 상호작용하는 언어  
@@ -50,7 +50,7 @@ while\(\)
 <ul>
     <script>
         var i = 0;
-        while(i < coworkers.length ){
+        while(i < cowork29ers.length ){
         document.write('<li>'+coworkers[i]+'</li>');
         i = i + 1;
         }
@@ -84,7 +84,36 @@ sum(인자 2,3)
         sum(3,4);    //7
 ```
 
-27화 함수\(리턴\)  이해가 되지 않음! 
+#### 27화 함수\(리턴\)  이해가 되지 않음! 
 
+29화 객체 예고  
+function BodySetColor\(color\){document.querySelector\('body'\).style.color = color ; } 함수로 묶은 다음  
+밑에 함수에 BodySetColor\('red'\) // 또는 Body.setColor\('red'\) 이런식으로 바꾼다   
+  
+document.querySelector\('body'\).style.color = color 에서    
+객체 : document.    메소드: 객체안에있는함수는 querySelector\('body'\).style.color = color ;
 
+```text
+30화 객체 쓰기와 읽기
+객체 : ex) var coworkers = ['egoing' , 'leezche']; 
+는 순서대로 저장되지만 순서대로 없이 저장되는것이 객체       
+        
+        
+        
+        
+          var coworkers = {
+            "programmer" : "egoing",
+            "designer" : "leezche"
+        };
+        document.write("programmer : " + coworkers.programmer + "<br>");
+        coworkers.bookkeeper = "duru";
+        document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+        
+        
+여기에서 띄어쓰기는 coworkers뒤에 점을 빼고 대괄호[] 후에 ""
+        coworkers["data scientist"] = "taeho";
+        document.write("data scientist : " + coworkers["data scientist"] + "<br>");
+```
+
+객체에 소속된 함수를 메소드라고 한
 
