@@ -119,3 +119,16 @@ document.querySelector\('body'\).style.color = color 에서
 
 #### 33화 객체의 활용 이해가 되지 않음!
 
+34화 파일로 쪼개서 정리 정돈하기  
+&lt;script src=" "&gt;&lt;/script&gt;로 묶어서 관리하
+
+35화 라이브러리와 프레임워크
+
+36화 UI vs API  
+UI : User Interface  
+API : application Programming Interface     ====== alert 같은것 
+
+복잡하게 생각하지말고 간단하게 생각해라.  
+태그를 삭제하고싶거나 자식태그를 추가하고 싶다면 document 객체를 찾아보고 그래도 안되면 DOM으로 찾아봐라  
+
+
