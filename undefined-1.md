@@ -23,3 +23,30 @@ ex\)  '1' === 1;       -&gt; false
        1 != '1'            -&gt; false  
        1 !== '1'           -&gt; true
 
+2-10화 변수명짓기  
+특수문자는 $ \_ 두개만 된다.  
+숫자는 맨 앞에 나오면 안된다.  
+띄어쓰기 안된다.
+
+2-11화 변수 수정하기  
+let number = 16  
+number /=4           // number = number / 4    -&gt; 4
+
+2-12화 상수  
+let 외에도 변수를 선언하는 예약어로는 const 와 var이 있다.  
+최근에 let을 더 많이 쓰는 추세,  
+var은 옛 코  
+
+
+2-14화 else,else if, switch  
+  
+if\(조건식\){  
+   동작문;  
+} else if \(조건식\){  
+   동작문  
+} else {  
+   동작문;  
+}  
+switch문은 영상 참조.  
+
+
