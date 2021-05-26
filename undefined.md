@@ -81,7 +81,7 @@ console.log(66 + true); 에서 true를 1로 변환시켜 값이 67이 된다.
 ex\) console.log\({} instanceof Array\)  
   
 \* primitive \(number,boolean,string,undefined,function,string\) 는 typeof를 사용  
-\* object array 는 instanceof를 사
+\* object array 는 instanceof를 사용
 
 
 
