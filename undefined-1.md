@@ -213,3 +213,59 @@ const result = 이름.lastindexOf\('내용'\)   //뒤에서부터
 
 
 
+2-24화 함수 기본  
+function\(\) {}  
+\(\) =&gt; {}  
+  
+이름 붙이기  
+function a \(\){}                       함수선언문  
+const b = function\(\) {};        함수표현식  
+const c = \(\) =&gt; {};  
+함수는 return undefined 가 생략 됨.
+
+2-25화 매개변수와 인수  
+function a\(parameter\){  
+  console.log\(parameter\);  
+}  
+a\('argument'\)  
+선언 parameter 매개변수 ,호출 argument 인 
+
+```text
+function a(w, x, y, z){
+  console.log(w, x, y, z);
+  console.log(arguments);
+}
+a('Hello', 'Parameter', 'Argument')
+
+// 실행결과 //
+Hello Parameter Argument undefined
+Arguments(3) ['Hello', 'Parameter', 'Argument']
+```
+
+  
+2-26화 객체 리터널 기본  
+배열 대신에 객체 리터널을 쓰는 이유는 값의 이름이 각 각 있다.  
+const 객체 = {  
+  속성 1 이름: 속성1값,  
+  속성 2 이름: 속성2값,  
+  속성 3 이름: 속성3값,  
+}
+
+```text
+const zerocho = {
+  name : '조현영',
+  year : 1994,
+  date : 12,
+  gender : 'M',
+};
+console.log(zerocho.name);
+console.log(zerocho['name']);
+```
+
+객체 안에 있는 함수는 메소드라고 부른다.
+
+
+
+2-27화 객체의 비교\(어려움, 잘 모름\)  
+객체끼리는 비교하면 서로 false가 나온다
+
