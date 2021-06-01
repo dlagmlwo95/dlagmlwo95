@@ -269,3 +269,60 @@ console.log(zerocho['name']);
 2-27화 객체의 비교\(어려움, 잘 모름\)  
 객체끼리는 비교하면 서로 false가 나온다
 
+
+
+3-1화 순서도그리기  
+1. 프로그램 절차의 개수는 정해져 있어야 한다.  
+2. 각 절차는 항상 같은 내용이어야 한다.  
+3. 모든 가능성을 고려해야 한다.  
+4. 예시는  절차를 검증하는 데 사용한다.  
+
+
+3-4화 HTML 태그 선택하기  
+document.querySelector\('\#word'\)  
+document.querySelectorAll\('div'\)       맨위에꺼.  
+태그.addEventListener\('이벤트 이름',리스너함수\);  
+           리스너함수는 콜백함수 라고도   
+
+
+```text
+파일 
+  
+  <div><span id="order">1</span>번째 참가자</div>
+  <div>제시어 : <span id="word"></span></div>
+  <input type="text">
+  <button>입력</button>
+  
+  <script>
+    const number = parseInt(prompt('몇 명이 참가하나요?'), 10);
+    alert(number);
+    const yesOrNo = confirm('맞나요?');
+
+    document.querySelector('input').addEventListener('input',(event)=> {
+      console.log('글자 입력',event.target.value);
+    });
+
+    const onClick = () => {
+      console.log('버튼 클릭');
+    }
+    document.querySelector('button').addEventListener('click',onClick);
+  </script>
+```
+
+
+
+3-9화 순서도 최적화 하기  
+OR의 관계  
+첫번째 조건                                              두번째 조건                                          최종 결과  
+true                                                               true                                                         true  
+true                                                               false                                                       true  
+false                                                             true                                                         true  
+false                                                             false                                                       false  
+  
+AND의 관계  
+첫번째 조건                                              두번째 조건                                          최종 결과  
+true                                                               true                                                         true  
+true                                                               false                                                       false  
+false                                                             true                                                         false  
+false                                                             false                                                       false
+
