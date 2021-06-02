@@ -55,7 +55,25 @@ if\(조건식\){
 } else {  
    동작문;  
 }  
-switch문은 영상 참조.
+  
+switch \(조건식\){  
+  case 비교조건식:  
+    동작문;  
+}
+
+```text
+let value = 'B';
+   switch (value) {
+     case 'A':
+     console.log('A');
+     case 'B':
+     console.log('B');
+     case 'C':
+     console.log('C');
+}
+
+ ==>>>>>>>>> B C
+```
 
 
 
@@ -344,4 +362,114 @@ const func = (msg) => () => {
 
 => () => 는 return() 을 생략한 것
 ```
+
+
+
+4-4화 if문 중첩 줄이기  
+1. if문 다음에 나오는 공통된 차를 각 분기점 내부에 넣는다.   
+2. 분기점에서 짧은 절차부터 실행하게 if문을 작성한다.   
+3. 짧은 절차가 끝나면 return\(함수 내부의 경우\)이나 break\(for문 내부의 경우\)로 중단한다.    
+4. else를 제거한다\(이때 중첩 하나가 제거된다.\)
+
+```text
+if문 중첩 줄이기 예)
+
+const onClickNumber = (event) => {
+    if (operator) { //비어있지 않다
+        if (!numTwo) {
+            $result.value = '';
+        } // 두번째 숫자가 없으면 숫자를 지워라.
+        numTwo += event.target.textContent; //클릭한 글자를 그대로 가져오기
+    } else { //비어있다
+        numOne += event.target.textContent;
+    }
+    $result.value += event.target.textContent;
+};
+
+
+1.
+const onClickNumber = (event) => {
+    if (operator) { //비어있지 않다
+        if (!numTwo) {
+            $result.value = '';
+        } // 두번째 숫자가 없으면 숫자를 지워라.
+        numTwo += event.target.textContent; //클릭한 글자를 그대로 가져오기
+        $result.value += event.target.textContent;
+    } else { //비어있다
+        numOne += event.target.textContent;
+        $result.value += event.target.textContent;
+    }
+};
+
+
+2.
+const onClickNumber = (event) => {
+    if (!operator) { //비어있
+        numOne += event.target.textContent;
+        $result.value += event.target.textContent;
+    } else { //비어있지 않다.
+        if (!numTwo) {
+            $result.value = '';
+        } // 두번째 숫자가 없으면 숫자를 지워라.
+        numTwo += event.target.textContent; //클릭한 글자를 그대로 가져오기
+        $result.value += event.target.textContent;
+    }
+};
+
+
+3. return이 나오면 else를 지울 수 있다.
+const onClickNumber = (event) => {
+    if (!operator) { //비어있
+        numOne += event.target.textContent;
+        $result.value += event.target.textContent;
+        return;
+    } //비어있지 않다.
+        if (!numTwo) {
+            $result.value = '';
+        } // 두번째 숫자가 없으면 숫자를 지워라.
+        numTwo += event.target.textContent; //클릭한 글자를 그대로 가져오기
+        $result.value += event.target.textContent;
+};
+```
+
+```text
+if문 줄이기 연습 
+    
+    function text(){
+        let result = '';
+        if(a) {
+            if (!b){
+                result = 'c';
+            }
+        } else {
+            result = 'a';
+        }
+        result += 'b';
+        return result;
+    }
+    
+    
+    function text(){
+        let result = '';
+        if(!a) {
+            result = 'a';
+            result += 'b';
+            return result;
+        }
+            if (!b){
+                result = 'c';
+            }
+            result += 'b';
+            return result;
+    }
+```
+
+5-2 랜덤 사용하기  
+반올림 : Math.round\(\)       올림 : Math.ceil\(\)  
+  
+Math.random\(\)                                                       0 &lt;= x &lt; 1  
+Math.random\(\)  \* 9                                                0 &lt;= x &lt; 9  
+Math.random\(\)  \* 9  + 1                                         1 &lt;= x &lt; 10  
+Math.floor\(Math.random\(\)  \* 9  + 1\)                   x = {1, 2, 3, 4, 5, 6, 7, 8, 9}  
+
 
