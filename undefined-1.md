@@ -326,3 +326,22 @@ true                                                               false        
 false                                                             true                                                         false  
 false                                                             false                                                       false
 
+
+
+4-3 event 객체로 중복 제거하
+
+```text
+const func = (msg) => {
+    return () => {
+        console.log(msg);
+    };
+};
+
+const func = (msg) => () => {
+    console.log(msg);
+};
+
+
+=> () => 는 return() 을 생략한 것
+```
+
