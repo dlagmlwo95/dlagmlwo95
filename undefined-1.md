@@ -471,5 +471,6 @@ Math.random\(\)                                                       0 &lt;= x 
 Math.random\(\)  \* 9                                                0 &lt;= x &lt; 9  
 Math.random\(\)  \* 9  + 1                                         1 &lt;= x &lt; 10  
 Math.floor\(Math.random\(\)  \* 9  + 1\)                   x = {1, 2, 3, 4, 5, 6, 7, 8, 9}  
-
+  
+배열을 문자열로 바꾸는 코드 join
 
