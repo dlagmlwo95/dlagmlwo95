@@ -3,7 +3,10 @@
 1.Node.js 설치하기  
 [https://nodejs.org/en](https://nodejs.org/en/)  
   
-명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치
+명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치  
+
+
+
 
 
 
@@ -108,5 +111,93 @@ const element = <Hello name = "imheejae" />;
 
 reactDom.render(element, document.getElementById('root'));
 
+```
+
+로우터 설치하
+
+```jsx
+//로우터 설치하기 
+npm install react-router-dom
+```
+
+```jsx
+//sass 설치하기
+npm install node-sass
+npm install node-sass@4.14.1
+```
+
+
+
+```jsx
+import React from 'react';
+import Main from './components/pages/Main';
+import About from './components/pages/About';
+import Reference from './components/pages/Reference';
+import Script from './components/pages/Script';
+import Youtube from './components/pages/Youtube';
+import Contact from './components/pages/Contact';
+import Portfolio from './components/pages/Portfolio';
+import {BrowserRouter as Router, Route } from 'react-router-dom';
+
+function App(){
+  return (
+    <Router>
+      <Route path="/" exact component={Main} />
+      <Route path="/about" exact component={About} />
+      <Route path="/reference" exact component={Reference} />
+      <Route path="/script" exact component={Script} />
+      <Route path="/youtube" exact component={Youtube} />
+      <Route path="/contact" exact component={Contact} />
+      <Route path="/portfolio" exact component={Portfolio} />
+    </Router>
+  )
+}
+
+export default App;
+
+
+
+
+폴(About.js)
+
+import React from 'react';
+
+function About(){
+    return <div>about 페이지입니다.</div>
+}
+
+export default About;
+```
+
+
+
+
+
+
+
+sass 는 이름명 앞에 _가 붙음 ex\)_ \_layout.scss  
+  
+index.js 에 import './index.scss'; 넣어준다.
+
+```jsx
+index.scss
+
+@charset "UTF-8";
+
+//Base
+@import "./assets/styles/fonts";
+@import "./assets/styles/base";
+
+//layout
+@import "./assets/styles/layout";
+
+//page
+@import "./assets/styles/pages";
+
+//Loading
+@import "./assets/styles/loader";
+
+----------------------------------------------
+각 폴더 이름은 앞에 _ 붙이
 ```
 
