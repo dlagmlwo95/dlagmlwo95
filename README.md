@@ -97,3 +97,16 @@ reactDom.render(element, document.getElementById('root'));
 // SPA : 싱글페이지
 ```
 
+```javascript
+props 추가
+
+function Hello(props){
+  return <h1>Hello,{props.name}</h1>
+}
+
+const element = <Hello name = "imheejae" />;
+
+reactDom.render(element, document.getElementById('root'));
+
+```
+
