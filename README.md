@@ -50,6 +50,8 @@ const hello = <h1>hello, {helloName(name)}</h1>
 ReactDOM.render(hello,document.getElementById('root'));
 ```
 
+2-3 렌더링
+
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
