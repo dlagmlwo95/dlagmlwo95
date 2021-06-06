@@ -1,6 +1,6 @@
 # 생활코딩
 
-생활코딩 자바스크립트 노트
+## 생활코딩 자바스크립트 노트
 
 2화 수업의 목적  
 1.자바스크립트는 사용자와 상호작용하는 언어  
@@ -50,7 +50,7 @@ while\(\)
 <ul>
     <script>
         var i = 0;
-        while(i < coworkers.length ){
+        while(i < cowork29ers.length ){
         document.write('<li>'+coworkers[i]+'</li>');
         i = i + 1;
         }
@@ -60,7 +60,75 @@ while\(\)
     
 ```
 
+24화 함수예고 25화 함수  
+function nightDayHandler\(self\){ }  함수를 사용하여 묶음.  
+사용시 nightDayHandler\(this\) &lt;-함수명만 사용하면 됨.  
+function two\(\){}         
+사용시 two\(\);
+
+```text
+26화 함수 : 매개변수와 인자
+Parameter(매개변수) & Argument(인자) 
+sum(매개변수 left, right)
+sum(인자 2,3)
 
 
+        function onePlusOne(){
+            document.write(1+1+'<br>');
+        }
+        onePlusOne();
+        function sum(left, right){
+            document.write(left+right+'<br>');
+        }
+        sum(2,3);    //5
+        sum(3,4);    //7
+```
+
+#### 27화 함수\(리턴\)  이해가 되지 않음! 
+
+29화 객체 예고  
+function BodySetColor\(color\){document.querySelector\('body'\).style.color = color ; } 함수로 묶은 다음  
+밑에 함수에 BodySetColor\('red'\) // 또는 Body.setColor\('red'\) 이런식으로 바꾼다   
+  
+document.querySelector\('body'\).style.color = color 에서    
+객체 : document.    메소드: 객체안에있는함수는 querySelector\('body'\).style.color = color ;
+
+```text
+30화 객체 쓰기와 읽기
+객체 : ex) var coworkers = ['egoing' , 'leezche']; 
+는 순서대로 저장되지만 순서대로 없이 저장되는것이 객체       
+        
+        
+        
+        
+          var coworkers = {
+            "programmer" : "egoing",
+            "designer" : "leezche"
+        };
+        document.write("programmer : " + coworkers.programmer + "<br>");
+        coworkers.bookkeeper = "duru";
+        document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+        
+        
+여기에서 띄어쓰기는 coworkers뒤에 점을 빼고 대괄호[] 후에 ""
+        coworkers["data scientist"] = "taeho";
+        document.write("data scientist : " + coworkers["data scientist"] + "<br>");
+```
+
+객체에 소속된 함수를 메소드라고 한다\(document\)
+
+#### 33화 객체의 활용 이해가 되지 않음!
+
+34화 파일로 쪼개서 정리 정돈하기  
+&lt;script src=" "&gt;&lt;/script&gt;로 묶어서 관리하
+
+35화 라이브러리와 프레임워크
+
+36화 UI vs API  
+UI : User Interface  
+API : application Programming Interface     ====== alert 같은것 
+
+복잡하게 생각하지말고 간단하게 생각해라.  
+태그를 삭제하고싶거나 자식태그를 추가하고 싶다면 document 객체를 찾아보고 그래도 안되면 DOM으로 찾아봐라  
 
 
