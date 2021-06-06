@@ -79,3 +79,21 @@ let clock = document.getElementById("clock");
 */
 ```
 
+2-4 컨퍼넌트\(중요\) 
+
+```javascript
+import React from 'react';
+import reactDom from 'react-dom';
+
+//컨퍼넌트는 앞에를 대문자로 씀(Hello) 함수는 소문자
+function Hello(){
+  return <h1>Hello, imheejae</h1>
+}
+
+const element = <Hello />; //컨퍼넌트 사용법
+
+reactDom.render(element, document.getElementById('root'));
+
+// SPA : 싱글페이지
+```
+
