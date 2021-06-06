@@ -50,3 +50,30 @@ const hello = <h1>hello, {helloName(name)}</h1>
 ReactDOM.render(hello,document.getElementById('root'));
 ```
 
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+//렌더링
+
+function clock(){
+  const element = (
+    <div>
+      <h1>hello, imheejae</h1>
+      <h2>지금은 {new Date().toLocaleTimeString()}입니다.</h2>
+    </div>
+  );
+  ReactDOM.render(element,document.getElementById('root'));
+}
+setInterval(clock, 1000);   //서클이라는 함수를 1초에 한번씩 진행시켜라.
+
+
+/* 자바스크립트
+let clock = document.getElementById("clock");
+
+        setInterval(function() {
+            clock.innerHTML = new Date().toLocaleTimeString();
+        }, 1000);
+*/
+```
+
