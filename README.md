@@ -20,6 +20,7 @@ ReactDOM.render(<h1>hello</h1>,document.getElementById('root'));
 ```
 
 2-2 JSX  
+보는법 : 터미널에 npm start 검색.  
 \(1,2 같음\)
 
 ```javascript
