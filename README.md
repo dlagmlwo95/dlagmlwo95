@@ -3,8 +3,7 @@
 1.Node.js 설치하기  
 [https://nodejs.org/en](https://nodejs.org/en/)  
   
-명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치  
-
+명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치
 
 
 
@@ -52,6 +51,8 @@ const hello = <h1>hello, {helloName(name)}</h1>
 
 ReactDOM.render(hello,document.getElementById('root'));
 ```
+
+* helloName\(name\)   &lt;- 괄호안에 name 이 들어가는 이유?
 
 2-3 렌더링
 
@@ -158,7 +159,7 @@ export default App;
 
 
 
-폴(About.js)
+폴더(About.js)
 
 import React from 'react';
 
