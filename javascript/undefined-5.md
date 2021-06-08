@@ -52,3 +52,18 @@ i++를 많이 씀.
 
 
 
+중요!!
+
+```javascript
+            // for for 두개있을때. i를 밖for j를 안for라고 하면
+            // 밖for실행(1번) 후 안for10번(<10)실행 후
+            // 밖for(1번) 실행 다시 안for실행(10번) ... 
+            // 최종 밖for는 10번 안for는 100번 실행
+            
+            for(var i = 0; i < 10; i++){
+                for(var j = 0; j < 10; j++){
+                document.write('hello' + i +j + '<br />');
+                }
+            }
+```
+
