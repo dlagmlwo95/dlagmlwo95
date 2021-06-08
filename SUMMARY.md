@@ -7,8 +7,8 @@
   * [경고창, 콘솔창](javascript/undefined-2.md)
   * [숫자와 문자](javascript/undefined-3.md)
   * [변수와 비교](javascript/undefined-4.md)
-  * [조건문](javascript/undefined-1.md)
-  * [반복문](javascript/undefined-5.md)
+  * [조건문 if else](javascript/undefined-1.md)
+  * [반복문 while for](javascript/undefined-5.md)
   * [함수 function](javascript/function.md)
 * [제로초](undefined-1.md)
 

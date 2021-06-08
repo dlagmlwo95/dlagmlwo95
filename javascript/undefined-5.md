@@ -1,4 +1,4 @@
-# 반복문
+# 반복문 while for
 
 {% hint style="info" %}
 반복문 loop iterate  

@@ -1,4 +1,4 @@
-# 조건문
+# 조건문 if else
 
 {% hint style="info" %}
 if  
