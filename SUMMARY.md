@@ -9,5 +9,6 @@
   * [변수와 비교](javascript/undefined-4.md)
   * [조건문](javascript/undefined-1.md)
   * [반복문](javascript/undefined-5.md)
+  * [함수 function](javascript/function.md)
 * [제로초](undefined-1.md)
 
