@@ -123,5 +123,45 @@ active.classList.add('제할이름');
 </script>
 ```
 
-## 속성 APID
+## 속성 API
+
+```markup
+<a id="target" href="http://opentutorials.org">opentutorials</a>
+<script>
+var t = document.getElementById('target');
+console.log(t.getAttribute('href')); // http://opentutorials.org
+
+//속성을 바꿈.
+t.setAttribute('title', 'opentutorials.org'); // title 속성의 값을 설정한다.
+
+//속성을 지움.
+t.removeAttribute('title'); // title 속성을 제거한다.
+
+//title이 있는지 없는지 확인.
+console.log(t.hasAttribute('title')); // true, title 속성의 존재여부를 확인한다.
+
+</script>
+```
+
+```javascript
+//    두개가 거의 같음.
+    var target = document.getElementById('target');
+    // attribute 방식
+    target.setAttribute('class', 'important');
+    // property 방식
+    target.className = 'important';
+    
+```
+
+atrribute방식                                                                      property
+
+| class | className |
+| :--- | :--- |
+| readonly | readOnly |
+| rowspan | rowSpan |
+| colspan | colSpan |
+| usemap | userMap |
+| frameborder | frameBorder |
+| for | htmlFor |
+| maxlength | maxLength |
 
