@@ -1,4 +1,4 @@
-# Untitled
+# JAVASCRIPT 기초
 
 HTML : 정보  
 CSS : 디자인  
