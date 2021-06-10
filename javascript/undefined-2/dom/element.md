@@ -151,6 +151,12 @@ console.log(t.hasAttribute('title')); // true, title 속성의 존재여부를 �
     // property 방식
     target.className = 'important';
     
+//현재 웹페이지가 http://localhost/webjs/Element/attribute_api/demo3.html 일 때 
+var target = document.getElementById('target');
+// http://localhost/webjs/Element/attribute_api/demo1.html 
+console.log('target.href', target.href);
+// ./demo1.html 
+console.log('target.getAttribute("href")', target.getAttribute("href"));
 ```
 
 atrribute방식                                                                      property
@@ -164,4 +170,31 @@ atrribute방식                                                                 
 | frameborder | frameBorder |
 | for | htmlFor |
 | maxlength | maxLength |
+
+## jQuery 속성 제어 API
+
+attritube   -&gt; attr  
+property -&gt; prop  
+
+
+```javascript
+<ul>
+    <li class="marked">html</li>
+    <li>css</li>
+    <li id="active">JavaScript
+        <ul>
+            <li>JavaScript Core</li>
+            <li class="marked">DOM</li>
+            <li class="marked">BOM</li>
+        </ul>
+    </li>
+</ul>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+// ul li 안에있는 marked 두개만 빨간색으로 바뀜. 두개는같은결과.
+    $( ".marked", "#active").css( "background-color", "red" );
+    $( "#active").find('.marked').css( "background-color", "red" );
+
+</script>
+```
 
