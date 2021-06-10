@@ -28,8 +28,8 @@
   * [웹브라우저 자바스크립트](javascript/undefined-2/README.md)
     * [JAVASCRIPT 기초](javascript/undefined-2/untitled.md)
     * [Object Model](javascript/undefined-2/object-model.md)
-    * [BOM](javascript/undefined-2/bom.md)
-    * [Location 객체](javascript/undefined-2/location.md)
-    * [Navigator 객체](javascript/undefined-2/navigator.md)
+    * [BOM](javascript/undefined-2/bom/README.md)
+      * [Navigator 객체](javascript/undefined-2/bom/navigator.md)
+      * [Location 객체](javascript/undefined-2/bom/location.md)
 * [제로초](undefined-1.md)
 
