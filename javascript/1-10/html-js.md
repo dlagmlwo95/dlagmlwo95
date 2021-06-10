@@ -1,6 +1,6 @@
 # HTML과 JS의 만남
 
-## 3화 HTML과 JS의 만남:SCRIPT 태
+## 3화 HTML과 JS의 만남:SCRIPT 태그 
 
 ```markup
     <h1>Javascript</h1>
