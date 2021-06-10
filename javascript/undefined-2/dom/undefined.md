@@ -2,7 +2,8 @@
 
 document.getElementsByTagName\(''\);  
 document.getElementsByClassName\(''\);  
-document.getElementById\(''\);
+document.getElementById\(''\);  
+여기서 Id 만 Element 임.
 
 
 
