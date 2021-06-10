@@ -92,3 +92,34 @@ active.classList.add('제할이름');
 
 ## 조회 API
 
+```markup
+<ul>
+    <li class="marked">html</li>
+    <li>css</li>
+    <li id="active">JavaScript
+        <ul>
+            <li>JavaScript Core</li>
+            <li class="marked">DOM</li>
+            <li class="marked">BOM</li>
+        </ul>
+    </li>
+</ul>
+<script>
+    var list = document.getElementsByClassName('marked');
+    console.group('document');
+    for(var i=0; i<list.length; i++){
+        console.log(list[i].textContent);
+    }
+    console.groupEnd();//html DOM BOM
+     
+     //active라는 그룹으로 묶고 active를 조회함.
+    console.group('active');
+    var active = document.getElementById('active');     
+    var list = active.getElementsByClassName('marked');
+    for(var i=0; i<list.length; i++){
+        console.log(list[i].textContent);
+    }
+    console.groupEnd();//DOM BOM
+</script>
+```
+
