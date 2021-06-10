@@ -36,53 +36,7 @@ html의 웹브라우저에는 onclick 다음에 자바스크립트가 와야함.
     검색 : javascript element style
 ```
 
-16화 조건
-
-```markup
-    <h1>Conditional statement</h1>
-    <script>
-        document.write('1<br>');
-        document.write('2<br>');
-        document.write('3<br>');
-        document.write('4<br>');
-    </script>
-    
-    
-    <h2>IF-true</h2>
-    <script>
-        document.write('1<br>');
-        if (true) {
-            document.write('2<br>')
-        } else {
-            document.write('3<br>')
-        }
-        document.write('4<br>')
-    </script>
-
-    <h2>IF-false</h2>
-    <script>
-        document.write('1<br>');
-        if (false) {
-            document.write('2<br>')
-        } else {
-            document.write('3<br>')
-        }
-        document.write('4<br>')
-    </script>
-    
-    -------------------------------------
-    if(true / false ){
-    111111111
-    } else {
-    2222222222
-    }
-    
-    if안에가 true면 1111실행 false면 222222실
-```
-
-
-
-17화 조건문의 활용  
+  
   
 18화 리팩토링\(refactoring\)  
 리팩토링 : 코드를 깔끔하게 만드는 

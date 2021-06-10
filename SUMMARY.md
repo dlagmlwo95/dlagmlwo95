@@ -8,7 +8,7 @@
     * [제어 할 태그 선택하기](javascript/1-10/undefined.md)
     * [비교연산자](javascript/1-10/undefined-1.md)
     * [조건문](javascript/1-10/undefined-2.md)
-    * [Untitled](javascript/1-10/untitled-1.md)
+    * [리팩토링\(refactoring\)](javascript/1-10/untitled-1.md)
   * [-----------------------------------------](javascript/undefined.md)
   * [경고창, 콘솔창](javascript/undefined-2.md)
   * [숫자와 문자](javascript/undefined-3.md)
