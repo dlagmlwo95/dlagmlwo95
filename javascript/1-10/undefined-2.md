@@ -41,7 +41,7 @@ else\(\){}
     
 ```
 
-{% hint style="info" %}
+{% hint style="success" %}
 ```javascript
     
     if(true / false ){
