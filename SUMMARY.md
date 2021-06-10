@@ -29,7 +29,8 @@
     * [JAVASCRIPT 기초](javascript/undefined-2/untitled.md)
     * [Object Model](javascript/undefined-2/object-model.md)
     * [BOM](javascript/undefined-2/bom/README.md)
-      * [Navigator 객체](javascript/undefined-2/bom/navigator.md)
       * [Location 객체](javascript/undefined-2/bom/location.md)
+      * [Navigator 객체](javascript/undefined-2/bom/navigator.md)
+      * [창 제어](javascript/undefined-2/bom/undefined.md)
 * [제로초](undefined-1.md)
 
