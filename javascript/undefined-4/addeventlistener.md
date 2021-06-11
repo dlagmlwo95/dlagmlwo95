@@ -15,6 +15,8 @@
 
 ## addEventListener\(\)
 
+추가되기 때문에 반복해서 재사용 할 수 있다
+
 ```markup
 <input type="button" id="target" value="button" />
 <script>
