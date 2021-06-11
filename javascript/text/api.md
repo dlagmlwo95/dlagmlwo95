@@ -1,0 +1,15 @@
+# 값 API
+
+```markup
+<ul>
+    <li id="target">html</li> 
+    <li>css</li>
+    <li>JavaScript</li>
+</ul>
+<script>
+    var t = document.getElementById('target').firstChild; //html
+    console.log(t.nodeValue);
+    console.log(t.data);
+</script>
+```
+

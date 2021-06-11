@@ -45,5 +45,8 @@
       * [jQuery 노드 변경 \( - ing\)](javascript/undefined-2/node/jquery-ing.md)
       * [문자열로 노드 제어](javascript/undefined-2/node/undefined-3.md)
   * [Document 객체](javascript/document.md)
+  * [Text 객체](javascript/text/README.md)
+    * [값 API](javascript/text/api.md)
+    * [조작 API](javascript/text/api-1.md)
 * [제로초](undefined-1.md)
 
