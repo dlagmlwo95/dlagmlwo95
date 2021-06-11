@@ -40,5 +40,7 @@
       * [Element 객체](javascript/undefined-2/dom/element.md)
     * [Node객체](javascript/undefined-2/node/README.md)
       * [Node 관계 API](javascript/undefined-2/node/node-api.md)
+      * [Node 종류 API](javascript/undefined-2/node/node-api-1.md)
+      * [노드의 변경](javascript/undefined-2/node/undefined.md)
 * [제로초](undefined-1.md)
 
