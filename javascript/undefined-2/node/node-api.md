@@ -25,5 +25,13 @@ console.log(6, ul.childNodes[1]); // li(html)
 console.log(7, ul.parentNode); // body
 </script>
 </body>
+
+
 ```
+
+Node.childNodes : 자식 노드들을 유사배열에 담아서 반환함.  
+Node.firstChild : 첫 번째 자식 노드  
+Node.lastChild : 마지막 자식 노드  
+Node.nextSibling : 다음 형제 노드  
+Node.previousSibling : 이전 형제 노드
 
