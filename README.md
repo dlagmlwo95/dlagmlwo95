@@ -1,6 +1,8 @@
 # Node.js
 
-1.Node.js 설치하기  
+## 1.Node.js 설치하기
+
+  
 [https://nodejs.org/en](https://nodejs.org/en/)  
   
 명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치
@@ -9,9 +11,9 @@
 
 
 
-2. 기본 개념 익히기  
-2-1 출력하  
- \(index.js\)
+## 2. 기본 개념 익히기
+
+###  2-1 출력하  \(index.js\)
 
 ```javascript
 import React from 'react';
@@ -21,7 +23,9 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(<h1>hello</h1>,document.getElementById('root'));
 ```
 
-2-2 JSX  
+### 2-2 JSX
+
+  
 보는법 : 터미널에 npm start 검색.  
 \(1,2 같음\)
 
@@ -52,9 +56,9 @@ const hello = <h1>hello, {helloName(name)}</h1>
 ReactDOM.render(hello,document.getElementById('root'));
 ```
 
-* helloName\(name\)   &lt;- 괄호안에 name 이 들어가는 이유?
 
-2-3 렌더링
+
+### 2-3 렌더링
 
 ```javascript
 import React from 'react';
@@ -83,7 +87,7 @@ let clock = document.getElementById("clock");
 */
 ```
 
-2-4 컨퍼넌트\(중요\) 
+### 2-4 컨퍼넌트\(중요\) , props 
 
 ```javascript
 import React from 'react';
@@ -122,8 +126,8 @@ npm install react-router-dom
 ```
 
 ```jsx
-//sass 설치하기
-npm install node-sass
+//sass 설치하기 둘중 하나.
+npm install node-sass 
 npm install node-sass@4.14.1
 ```
 
