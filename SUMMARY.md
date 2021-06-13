@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Node.js](README.md)
-* [제로초](undefined-1.md)
 * [생활코딩 JAVASCRIPT](javascript/README.md)
   * [WEB2 JAVASCRIPT 기초](javascript/1-10/README.md)
     * [HTML과 JS의 만남](javascript/1-10/html-js.md)
@@ -58,4 +57,6 @@
     * [폼](javascript/undefined-4/undefined-2.md)
     * [문서 로딩](javascript/undefined-4/undefined-3.md)
     * [마우스](javascript/undefined-4/undefined-4.md)
+* [노마드](undefined/README.md)
+  * [\#1](undefined/1.md)
 
