@@ -240,9 +240,17 @@ react5001 폴더 들어가서 \(왼쪽3번째\) 날짜치고 지구본클릭 퍼
 
 ![vue](.gitbook/assets/image%20%2814%29.png)
 
-## 
+## 설치
 
+{% hint style="info" %}
+설치목  
+npm install react-router-dom  
+npm install node-sass@4.14.1  
+npm install axios  
+npm install prop-types  
   
-  
+설치확인법 : package.json 가서 \(버전\)확인하기 
+{% endhint %}
+
 
 
