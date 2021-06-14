@@ -2,7 +2,7 @@
 
 ### 8번.
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ```text
 8.번 답
@@ -31,7 +31,21 @@ document.write(obj4.b,"<br>");
 document.write(obj4.c,"<br>");
 ```
 
+### 
+
+### 12번
+
+![](.gitbook/assets/image%20%2819%29.png)
+
+```javascript
+document.write(obj5[0].x,"<br>");
+document.write(obj5[0].y,"<br>");
+document.write(obj5[0].z,"<br>");
+```
 
 
 
+### 13
+
+![](.gitbook/assets/image%20%2817%29.png)
 
