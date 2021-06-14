@@ -24,7 +24,7 @@
 
 ![](.gitbook/assets/image%20%2815%29.png)
 
-```text
+```javascript
 let obj4 = {a:100, b:200, c:"javascript"};
 document.write(obj4.a,"<br>");
 document.write(obj4.b,"<br>");
