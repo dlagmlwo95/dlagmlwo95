@@ -59,5 +59,6 @@
     * [마우스](javascript/undefined-4/undefined-4.md)
 * [노마드](undefined/README.md)
   * [\#1](undefined/1.md)
+  * [\#2](undefined/2.md)
 * [오답노트](undefined-1.md)
 
