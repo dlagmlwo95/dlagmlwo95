@@ -69,7 +69,8 @@ document.write(sum()); //30
 #### 전역변수로 사용하고 싶지 않을 때
 
 ```javascript
-// 감싸주고 맨밑에 ()바로 실행
+// 익명함수 
+//감싸주고 맨밑에 ()바로 실행 (방법1)
 (function(){
     var MYAPP = {}
     MYAPP.calculator = {
@@ -87,5 +88,48 @@ document.write(sum()); //30
     }
     document.write(sum());
 }())
+
+//방법2
+function myappfn(){
+    var MYAPP = {}
+    MYAPP.calculator = {
+        'left' : null,
+        'right' : null
+    }
+    MYAPP.coordinate = {
+        'left' : null,
+        'right' : null
+    }
+    MYAPP.calculator.left = 10;
+    MYAPP.calculator.right = 20;
+    function sum(){
+        return MYAPP.calculator.left + MYAPP.calculator.right;
+    }
+    document.write(sum());
+}
+myappfn();
+```
+
+## 유효범위의 대
+
+```javascript
+for(var i = 0; i < 1; i++){
+    var name = 'coding everybody';
+}
+alert(name);//coding everybody
+```
+
+## 정적 유효범위
+
+```javascript
+var i = 5;
+function a(){
+    var i = 10;
+    b();
+}
+function b(){
+    document.write(i);
+}
+a(); //5
 ```
 
