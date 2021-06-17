@@ -1,6 +1,6 @@
 # 값으로서의 함수와 콜백
 
-## 값으로서의 함
+## 값으로서의 함수  
 
 ```javascript
 //함수
@@ -54,7 +54,7 @@ for(var i = 0; i < process.length; i++){
 alert(input); //60.5
 ```
 
-## 콜백 함
+## 콜백 함수  
 
 ```javascript
 var numbers = [20,10,9,8,7,6,5,4,3,2,1];
@@ -76,5 +76,7 @@ console.log(numbers.sort(sortfunc)); //sortfunc는 콜백함수.
 //numbers.sort() //numbers는 객체,배열 sort()는 메소드라고함.
 ```
 
+## 비동기 처
 
+콜백은 비동기처리에서도 유용하게 사용된다.콜백으로 지정하면 해당 작업이 끝났을 때 미리 등록한 작업을 실행하도록 할 수 있다.
 
