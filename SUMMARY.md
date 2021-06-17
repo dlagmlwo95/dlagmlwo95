@@ -24,6 +24,8 @@
     * [배열](javascript/undefined-9/undefined-6.md)
     * [객체](javascript/undefined-9/undefined-7.md)
     * [모듈](javascript/undefined-9/undefined-8.md)
+    * [함수지향](javascript/undefined-9/undefined/README.md)
+      * [유효범위](javascript/undefined-9/undefined/undefined-9.md)
   * [-----------------------------------------](javascript/undefined-1.md)
   * [웹브라우저 자바스크립트](javascript/undefined-2/README.md)
     * [JAVASCRIPT 기초](javascript/undefined-2/untitled.md)
