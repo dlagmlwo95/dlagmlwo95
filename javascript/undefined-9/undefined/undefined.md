@@ -3,6 +3,7 @@
 ## 값으로서의 함
 
 ```julia
-function a(){} //함수
+function a(){} 
+//함수 
 ```
 
