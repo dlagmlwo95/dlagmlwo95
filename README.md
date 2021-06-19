@@ -1,19 +1,56 @@
 # Node.js
 
-## 1.Node.js 설치하기
+## 1.설치하기
 
   
-[https://nodejs.org/en](https://nodejs.org/en/)  
-  
-명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치  
-  
+[https://nodejs.org/en](https://nodejs.org/en/)
 
+### 리액트
+
+  
+명령프롬프트 -&gt; dir desktop - \(주소에서 설치 후\) node -v로 설치 되어있는지 확인 -&gt; npx create-react-app react5000 쳐서 나머지 설치
 
 ![](.gitbook/assets/image%20%289%29.png)
 
+### 뷰
+
+명령프로토콜  
+cd desktop 엔터 npm install -g @vue/cli 설치 후,  
+vue create vue5000 마저 설치.
+
+{% hint style="info" %}
+### 설치항목
+
+npm install react-router-dom  
+npm install node-sass@4.14.1 \(4.14.1버전\)  
+npm install axios  
+npm install prop-types  
 
 
+#### 설치확인법
 
+package.json 가서 \(버전\)확인하기 
+{% endhint %}
+
+## 리액트\(설치\)
+
+뷰도 동일.
+
+react5001 폴더 들어가서 \(왼쪽3번째\) 날짜치고 지구본클릭 퍼블리셔 누르면 동기화됨.  
+[https://console.firebase.google.com/](https://console.firebase.google.com/) 들어가서 프로그램만들기 -&gt; 밑에체크해제  
+명령프로토콜가서 react5001파일 -&gt; 창뜨면 왼쪽바에 빌드 hosting에있는 \(npm install -g firebase-tools\) 붙여넣기 -&gt;다음 \(firebase login\) 복붙 -&gt; firebase init 복붙 밑에
+
+![](.gitbook/assets/image%20%2811%29.png)
+
+ y -&gt; hosting 체크 엔터 -&gt;퍼블릭나오면 build -&gt; N -&gt; N -&gt; N , 배포\(firebase deploy\)복북엔터 HOSTING주소 주소창에 입력  
+  
+성공 장면 
+
+![react](.gitbook/assets/image%20%2813%29.png)
+
+![vue](.gitbook/assets/image%20%2814%29.png)
+
+코딩끝내고 build sever 누르면 끝
 
 ## 2. 기본 개념 익히기
 
@@ -199,48 +236,6 @@ export default About;
 {% endtabs %}
 
 ---------------------------------------------------------------------------------------------------------------------------
-
-## vue 설치
-
-  
-명령프로토콜  
-cd desktop 엔터 npm install -g @vue/cli 설치 후,  
-vue create vue5000 마저 설치.  
-설치 완료하면 
-
-## 리액트\(설치\)
-
-react5001 폴더 들어가서 \(왼쪽3번째\) 날짜치고 지구본클릭 퍼블리셔 누르면 동기화됨.  
-[https://console.firebase.google.com/](https://console.firebase.google.com/) 들어가서 프로그램만들기 -&gt; 밑에체크해제  
-명령프로토콜가서 react5001파일 -&gt; 창뜨면 왼쪽바에 빌드 hosting에있는 \(npm install -g firebase-tools\) 붙여넣기 -&gt;다음 \(firebase login\) 복붙 -&gt; firebase init 복붙 밑에
-
-![](.gitbook/assets/image%20%2811%29.png)
-
- y -&gt; hosting 체크 엔터 -&gt;퍼블릭나오면 build -&gt; N -&gt; N -&gt; N , 배포\(firebase deploy\)복북엔터 HOSTING주소 주소창에 입력
-
-성공 .  
-
-
-![react](.gitbook/assets/image%20%2813%29.png)
-
-코딩끝내고 build sever 누르면 끝  
-
-
-![vue](.gitbook/assets/image%20%2814%29.png)
-
-## 설치
-
-{% hint style="info" %}
-npm install react-router-dom  
-npm install node-sass@4.14.1 \(4.14.1버전\)  
-npm install axios  
-npm install prop-types
-{% endhint %}
-
-{% hint style="info" %}
-설치확인법  
-package.json 가서 \(버전\)확인하기 
-{% endhint %}
 
 
 
