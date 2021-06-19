@@ -82,7 +82,7 @@ function clock(){
 setInterval(clock, 1000);   //서클이라는 함수를 1초에 한번씩 진행시켜라.
 
 
-/* 자바스크립트
+/* 자바스크립트 
 let clock = document.getElementById("clock");
 
         setInterval(function() {
@@ -91,7 +91,7 @@ let clock = document.getElementById("clock");
 */
 ```
 
-### 2-4 컨퍼넌트\(중요\) , props 
+### 2-4 컨퍼넌트\(중요\)
 
 ```javascript
 import React from 'react';
@@ -109,6 +109,8 @@ reactDom.render(element, document.getElementById('root'));
 // SPA : 싱글페이지
 ```
 
+### props
+
 ```jsx
 props 추가
 
@@ -119,24 +121,12 @@ function Hello(props){
 const element = <Hello name = "imheejae" />;
 
 reactDom.render(element, document.getElementById('root'));
-
-```
-
-로우터 설치하
-
-```jsx
-//로우터 설치하기 
-npm install react-router-dom
-```
-
-```jsx
-//sass 설치하기 둘중 하나.
-npm install node-sass 
-npm install node-sass@4.14.1
 ```
 
 
 
+{% tabs %}
+{% tab title="" %}
 ```jsx
 import React from 'react';
 import Main from './components/pages/Main';
@@ -177,20 +167,16 @@ function About(){
 
 export default About;
 ```
+{% endtab %}
+{% endtabs %}
 
 
 
+#### sass 는 이름명 앞에 _가 붙음 ex\)_ \_layout.scss index.js 에 import './index.scss'; 넣어준다.
 
-
-
-
-sass 는 이름명 앞에 _가 붙음 ex\)_ \_layout.scss  
-  
-index.js 에 import './index.scss'; 넣어준다.
-
+{% tabs %}
+{% tab title="index.scss" %}
 ```jsx
-index.scss
-
 @charset "UTF-8";
 
 //Base
@@ -207,8 +193,10 @@ index.scss
 @import "./assets/styles/loader";
 
 ----------------------------------------------
-각 폴더 이름은 앞에 _ 붙이
+각 폴더 이름은 앞에 _ 붙인다 .
 ```
+{% endtab %}
+{% endtabs %}
 
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -243,13 +231,15 @@ react5001 폴더 들어가서 \(왼쪽3번째\) 날짜치고 지구본클릭 퍼
 ## 설치
 
 {% hint style="info" %}
-설치목  
 npm install react-router-dom  
-npm install node-sass@4.14.1  
+npm install node-sass@4.14.1 \(4.14.1버전\)  
 npm install axios  
-npm install prop-types  
-  
-설치확인법 : package.json 가서 \(버전\)확인하기 
+npm install prop-types
+{% endhint %}
+
+{% hint style="info" %}
+설치확인법  
+package.json 가서 \(버전\)확인하기 
 {% endhint %}
 
 
