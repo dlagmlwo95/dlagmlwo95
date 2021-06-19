@@ -17,7 +17,7 @@
 
 ## 2. 기본 개념 익히기
 
-###  2-1 출력하  \(index.js\)
+###  2-1 출력하기    \(index.js\)
 
 ```javascript
 import React from 'react';
