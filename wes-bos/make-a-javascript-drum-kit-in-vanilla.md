@@ -1,5 +1,7 @@
 # Drum Kit in Vanilla
 
+![](../.gitbook/assets/image%20%2823%29.png)
+
 {% tabs %}
 {% tab title="HTML" %}
 ```markup
