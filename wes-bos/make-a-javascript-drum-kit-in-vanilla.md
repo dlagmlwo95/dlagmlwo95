@@ -1,4 +1,4 @@
-# Make a JavaScript Drum Kit in Vanilla
+# Drum Kit in Vanilla
 
 {% tabs %}
 {% tab title="HTML" %}

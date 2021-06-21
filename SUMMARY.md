@@ -68,6 +68,7 @@
   * [\#2](undefined/2.md)
   * [\#3](undefined/3.md)
 * [Wes Bos](wes-bos/README.md)
-  * [Make a JavaScript Drum Kit in Vanilla](wes-bos/make-a-javascript-drum-kit-in-vanilla.md)
+  * [Drum Kit in Vanilla](wes-bos/make-a-javascript-drum-kit-in-vanilla.md)
+  * [JS Clock in Vanilla JS](wes-bos/js-clock-in-vanilla-js.md)
 * [오답노트](undefined-1.md)
 
