@@ -63,9 +63,11 @@
     * [폼](javascript/undefined-4/undefined-2.md)
     * [문서 로딩](javascript/undefined-4/undefined-3.md)
     * [마우스](javascript/undefined-4/undefined-4.md)
-* [노마드](undefined/README.md)
+* [노마드 자바스크립트](undefined/README.md)
   * [\#1](undefined/1.md)
   * [\#2](undefined/2.md)
   * [\#3](undefined/3.md)
+* [Wes Bos](wes-bos/README.md)
+  * [Make a JavaScript Drum Kit in Vanilla](wes-bos/make-a-javascript-drum-kit-in-vanilla.md)
 * [오답노트](undefined-1.md)
 
