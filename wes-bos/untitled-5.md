@@ -1,2 +1,2 @@
-# Untitled
+# Flexbox + JavaScript Image Gallery
 
