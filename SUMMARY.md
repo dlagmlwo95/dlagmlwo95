@@ -70,7 +70,7 @@
 * [Wes Bos](wes-bos/README.md)
   * [Drum Kit in Vanilla](wes-bos/make-a-javascript-drum-kit-in-vanilla.md)
   * [JS Clock in Vanilla JS](wes-bos/js-clock-in-vanilla-js.md)
-  * [Untitled](wes-bos/untitled.md)
+  * [CSS Variables](wes-bos/untitled.md)
   * [Untitled](wes-bos/untitled-6.md)
   * [Untitled](wes-bos/untitled-5.md)
   * [Untitled](wes-bos/untitled-4.md)

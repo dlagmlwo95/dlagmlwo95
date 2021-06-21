@@ -1,5 +1,7 @@
 # JS Clock in Vanilla JS
 
+![](../.gitbook/assets/image%20%2822%29.png)
+
 {% tabs %}
 {% tab title="HTML" %}
 ```markup
