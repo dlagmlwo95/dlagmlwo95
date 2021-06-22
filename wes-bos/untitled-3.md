@@ -1,6 +1,6 @@
 # HTML5 Canvas
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 {% tabs %}
 {% tab title="HTML" %}

@@ -75,6 +75,6 @@
   * [.some\(\) .every\(\) \[...SPREADS\]](wes-bos/untitled-4.md)
   * [HTML5 Canvas](wes-bos/untitled-3.md)
   * [Checkbox Challenge](wes-bos/untitled-2.md)
-  * [Untitled](wes-bos/untitled-1.md)
+  * [KONAMI CODE](wes-bos/untitled-1.md)
 * [오답노트](undefined-1.md)
 
