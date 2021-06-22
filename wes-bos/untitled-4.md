@@ -1,4 +1,4 @@
-# .some\(\), .every\(\), .find\(\) and \[...SPREADS\]
+# .some\(\) .every\(\) \[...SPREADS\]
 
 ```javascript
         const people = [
