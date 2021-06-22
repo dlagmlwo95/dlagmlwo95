@@ -72,7 +72,7 @@
   * [JS Clock in Vanilla JS](wes-bos/js-clock-in-vanilla-js.md)
   * [CSS Variables](wes-bos/untitled.md)
   * [Flexbox + JavaScript Image Gallery](wes-bos/untitled-5.md)
-  * [Untitled](wes-bos/untitled-4.md)
+  * [.some\(\), .every\(\), .find\(\) and \[...SPREADS\]](wes-bos/untitled-4.md)
   * [Untitled](wes-bos/untitled-3.md)
   * [Untitled](wes-bos/untitled-2.md)
   * [Untitled](wes-bos/untitled-1.md)
