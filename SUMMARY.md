@@ -76,5 +76,6 @@
   * [HTML5 Canvas](wes-bos/untitled-3.md)
   * [Checkbox Challenge](wes-bos/untitled-2.md)
   * [KONAMI CODE](wes-bos/untitled-1.md)
+  * [Reference VS Copy](wes-bos/reference-vs-copy.md)
 * [오답노트](undefined-1.md)
 
