@@ -84,7 +84,7 @@
   * [Follow Along Links](wes-bos/untitled-10.md)
   * [Event Capture](wes-bos/untitled-9.md)
   * [Dropdown Navigation](wes-bos/untitled-8.md)
-  * [Untitled](wes-bos/untitled-7.md)
+  * [Drag to Scroll](wes-bos/untitled-7.md)
   * [Untitled](wes-bos/untitled-6.md)
 * [오답노트](undefined-1.md)
 
