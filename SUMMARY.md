@@ -78,7 +78,7 @@
   * [KONAMI CODE](wes-bos/untitled-1.md)
   * [Reference VS Copy](wes-bos/reference-vs-copy.md)
   * [Mouse Move Effect](wes-bos/mouse-move-effect.md)
-  * [Untitled](wes-bos/untitled-13.md)
+  * [Sorting Band Names](wes-bos/untitled-13.md)
   * [Untitled](wes-bos/untitled-12.md)
   * [Untitled](wes-bos/untitled-11.md)
   * [Untitled](wes-bos/untitled-10.md)
