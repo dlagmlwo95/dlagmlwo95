@@ -80,7 +80,7 @@
   * [Mouse Move Effect](wes-bos/mouse-move-effect.md)
   * [Sorting Band Names](wes-bos/untitled-13.md)
   * [Array Reduce Works](wes-bos/untitled-12.md)
-  * [Untitled](wes-bos/untitled-11.md)
+  * [Geolocation based Speedometer](wes-bos/untitled-11.md)
   * [Untitled](wes-bos/untitled-10.md)
   * [Untitled](wes-bos/untitled-9.md)
   * [Untitled](wes-bos/untitled-8.md)
