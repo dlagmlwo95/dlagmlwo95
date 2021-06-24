@@ -79,7 +79,7 @@
   * [Reference VS Copy](wes-bos/reference-vs-copy.md)
   * [Mouse Move Effect](wes-bos/mouse-move-effect.md)
   * [Sorting Band Names](wes-bos/untitled-13.md)
-  * [Untitled](wes-bos/untitled-12.md)
+  * [Array Reduce Works](wes-bos/untitled-12.md)
   * [Untitled](wes-bos/untitled-11.md)
   * [Untitled](wes-bos/untitled-10.md)
   * [Untitled](wes-bos/untitled-9.md)
