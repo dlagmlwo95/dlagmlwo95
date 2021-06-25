@@ -85,11 +85,11 @@
   * [Array Reduce Works](wes-bos/untitled-12.md)
   * [Geolocation based Speedometer](wes-bos/untitled-11.md)
   * [Follow Along Links](wes-bos/untitled-10.md)
+  * [Text-To-Speech](wes-bos/untitled-17.md)
   * [Sticky nav](wes-bos/untitled-16.md)
   * [Event Capture,Bubbling](wes-bos/untitled-9.md)
   * [Dropdown Navigation](wes-bos/untitled-8.md)
   * [Drag to Scroll](wes-bos/untitled-7.md)
-  * [Text-To-Speech](wes-bos/untitled-17.md)
   * [Untitled](wes-bos/untitled-18.md)
 * [오답노트](undefined-1.md)
 
