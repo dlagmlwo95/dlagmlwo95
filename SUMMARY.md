@@ -71,6 +71,7 @@
   * [Drum Kit in Vanilla](wes-bos/make-a-javascript-drum-kit-in-vanilla.md)
   * [JS Clock in Vanilla JS](wes-bos/js-clock-in-vanilla-js.md)
   * [CSS Variables](wes-bos/untitled.md)
+  * [Array](wes-bos/untitled-6.md)
   * [Flexbox Image Gallery](wes-bos/untitled-5.md)
   * [.some\(\) .every\(\) \[...SPREADS\]](wes-bos/untitled-4.md)
   * [HTML5 Canvas](wes-bos/untitled-3.md)
@@ -85,6 +86,5 @@
   * [Event Capture](wes-bos/untitled-9.md)
   * [Dropdown Navigation](wes-bos/untitled-8.md)
   * [Drag to Scroll](wes-bos/untitled-7.md)
-  * [Untitled](wes-bos/untitled-6.md)
 * [오답노트](undefined-1.md)
 
