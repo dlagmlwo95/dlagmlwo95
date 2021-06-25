@@ -75,6 +75,7 @@
   * [Flexbox Image Gallery](wes-bos/untitled-5.md)
   * [.some\(\) .every\(\) \[...SPREADS\]](wes-bos/untitled-4.md)
   * [HTML5 Canvas](wes-bos/untitled-3.md)
+  * [Chrome Dev Tools Tricks](wes-bos/chrome-dev-tools-tricks.md)
   * [Checkbox Challenge](wes-bos/untitled-2.md)
   * [KONAMI CODE](wes-bos/untitled-1.md)
   * [Reference VS Copy](wes-bos/reference-vs-copy.md)
@@ -85,6 +86,10 @@
   * [Follow Along Links](wes-bos/untitled-10.md)
   * [Event Capture](wes-bos/untitled-9.md)
   * [Dropdown Navigation](wes-bos/untitled-8.md)
+  * [Untitled](wes-bos/untitled-15.md)
+  * [Untitled](wes-bos/untitled-16.md)
+  * [Untitled](wes-bos/untitled-17.md)
+  * [Untitled](wes-bos/untitled-18.md)
   * [Drag to Scroll](wes-bos/untitled-7.md)
 * [오답노트](undefined-1.md)
 
