@@ -1,9 +1,4 @@
-# Event Capture,Bubbling
-
-## 버블링
-
-  
-한 요소에 이벤트가 발생하면, 이 요소에 할당된 핸들러가 동작하고, 이어서 부모 요소의 핸들러가 동작합니다.가장 최상단의 조상 요소를 만날 때까지 이 과정이 반복되면서 요소 각각에 할당된 핸들러가 동작합니다.
+# Event Capture
 
 {% tabs %}
 {% tab title="HTML" %}
@@ -63,5 +58,5 @@
 {% endtab %}
 {% endtabs %}
 
-[https://ko.javascript.info/bubbling-and-capturing](https://ko.javascript.info/bubbling-and-capturing)
+
 
