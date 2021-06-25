@@ -86,7 +86,7 @@
   * [Follow Along Links](wes-bos/untitled-10.md)
   * [Event Capture](wes-bos/untitled-9.md)
   * [Dropdown Navigation](wes-bos/untitled-8.md)
-  * [Untitled](wes-bos/untitled-15.md)
+  * [LocalStorage](wes-bos/untitled-15.md)
   * [Untitled](wes-bos/untitled-16.md)
   * [Untitled](wes-bos/untitled-17.md)
   * [Untitled](wes-bos/untitled-18.md)
