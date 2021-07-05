@@ -115,3 +115,13 @@ const user4 = Object.assign({},user);
 console.log(user4);
 ```
 
+## 8.Another example
+
+```javascript
+const fruit1 = {c color: 'red'};
+const fruit2 = {c color: 'blue', size : 'big'};
+const mixed = Object.assign({}, fruit1, fruit2);
+console.log(mixed.color);
+console.log(mixed.size);
+```
+
