@@ -104,5 +104,5 @@
   * [4. operator,if,for,loop](undefined/undefined-2/4.-operator-if-for-loop.md)
   * [5. arrow function](undefined/undefined-2/5.-arrow-function.md)
   * [6. class & object](undefined/undefined-2/6.-class-and-object.md)
-  * [Untitled](undefined/undefined-2/untitled.md)
+  * [7. Object](undefined/undefined-2/untitled.md)
 
