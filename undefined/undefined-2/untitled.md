@@ -95,3 +95,23 @@ for(value of array){
 };
 ```
 
+## 7. Fun cloning
+
+```javascript
+const user = {name : 'ellie', age : '20'};
+const user2 = user;
+user2.name = 'coder';
+console.log(user);
+
+//old way
+const user3 = {};
+for (key in user) {
+    user3[key] =  user3[key]
+}
+console.clear();
+console.log(user3);
+
+const user4 = Object.assign({},user);
+console.log(user4);
+```
+
