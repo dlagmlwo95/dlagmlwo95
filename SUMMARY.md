@@ -84,7 +84,7 @@
   * [11. 비동기, Call back](undefined/undefined-2/untitled-5.md)
   * [12. Promise](undefined/undefined-2/untitled-4.md)
   * [13. async, await](undefined/undefined-2/untitled-3.md)
-  * [Untitled](undefined/undefined-2/untitled-2.md)
+  * [14. 자바스크립트 함수 기본](undefined/undefined-2/untitled-2.md)
   * [Untitled](undefined/undefined-2/untitled-1.md)
 
 ## 노마드 <a id="undefined-3"></a>
