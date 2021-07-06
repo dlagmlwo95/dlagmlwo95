@@ -89,8 +89,7 @@
   * [16. 함수 정의,호출,콜백함수](undefined/undefined-2/16..md)
   * [17. 연산자, boolean](undefined/undefined-2/untitled-10.md)
   * [18. 클래스](undefined/undefined-2/untitled-9.md)
-  * [Untitled](undefined/undefined-2/untitled-8.md)
-  * [Untitled](undefined/undefined-2/untitled-7.md)
+  * [19.  최신 문법 정리](undefined/undefined-2/untitled-8.md)
 
 ## 노마드 <a id="undefined-3"></a>
 
