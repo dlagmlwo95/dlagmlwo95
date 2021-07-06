@@ -87,7 +87,7 @@
   * [14. 자바스크립트 함수 기본](undefined/undefined-2/untitled-2.md)
   * [15. 변수 primitive와 object](undefined/undefined-2/untitled-1.md)
   * [16. 함수 정의,호출,콜백함수](undefined/undefined-2/16..md)
-  * [Untitled](undefined/undefined-2/untitled-10.md)
+  * [17. 연산자, boolean](undefined/undefined-2/untitled-10.md)
   * [Untitled](undefined/undefined-2/untitled-9.md)
   * [Untitled](undefined/undefined-2/untitled-8.md)
   * [Untitled](undefined/undefined-2/untitled-7.md)
