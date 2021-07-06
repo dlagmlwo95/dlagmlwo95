@@ -85,7 +85,7 @@ userStorage.loginUser(
   user => {
     uwerStorage.getRoles(user,
     userWithRole => {
-      alert('hello ${user.name}, you have a ${user.role} role')
+      alert(`hello ${user.name}, you have a ${user.role} role`)
     },
     error => {
       console.log(error)
