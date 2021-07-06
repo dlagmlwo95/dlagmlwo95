@@ -83,7 +83,7 @@
   * [10.JSON](undefined/undefined-2/untitled-6.md)
   * [11. 비동기, Call back](undefined/undefined-2/untitled-5.md)
   * [12. Promise](undefined/undefined-2/untitled-4.md)
-  * [Untitled](undefined/undefined-2/untitled-3.md)
+  * [13. async, await](undefined/undefined-2/untitled-3.md)
   * [Untitled](undefined/undefined-2/untitled-2.md)
   * [Untitled](undefined/undefined-2/untitled-1.md)
 
