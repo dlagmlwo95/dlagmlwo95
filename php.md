@@ -22,3 +22,13 @@ CMD 열기 - &gt; 파일경로 C:\MAMP\bin\mysql\bin 로 이동
 비주얼스튜디오로 연동하는법  
 ftp-simple 설치 비주얼스튜디오에 f1 ftp-confi들어가기 -&gt; f1 ftp-remote
 
+
+
+## PHP사용법
+
+```php
+        <?php
+            include'../include/footer.php';
+        ?>
+```
+
