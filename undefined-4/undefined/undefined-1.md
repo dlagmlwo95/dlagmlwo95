@@ -39,7 +39,7 @@ let user5 = new User('Han',40);
 user5.SayName(); // Han
 ```
 
-
+생성자함수는 잊지말고 new를 붙여주자!!
 
 ```javascript
 function Item(title,price){
@@ -52,9 +52,10 @@ function Item(title,price){
 
 const item1 = new Item("인형",3000);
 const item2 = new Item("인형투",2000);
-const item3 = new Item("인형",30);
+const item3 = new Item("인형",5000);
 
-console.log(item1);
+console.log(item1,item2,item3);
+item3.showPrice();
 
 ```
 
