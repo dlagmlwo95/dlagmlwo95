@@ -67,3 +67,19 @@ var 1. 선언 및 초기화 단계  .2 할당 단계
 let 1.선언단계 2.초기화단계 3.할당단계  
 const 1.선언 + 초기화 + 
 
+### 함수 스코프\(function-scoped\) 
+
+var
+
+### 블록 스코프\(block-scoped\) 
+
+let , const \(지역변수만\)
+
+```javascript
+const age = 30;
+if(age>19){
+    var txt = '희재'; // var는 안에서 선언했지만 밖에서도 가능.
+}
+console.log(txt); // 
+```
+
