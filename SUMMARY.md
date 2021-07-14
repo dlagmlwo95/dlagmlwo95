@@ -130,4 +130,5 @@
 * [자바스크립트 중급](undefined-4/undefined/README.md)
   * [변수](undefined-4/undefined/undefined.md)
   * [생성자 함수](undefined-4/undefined/undefined-1.md)
+  * [객체 메소드](undefined-4/undefined/undefined-2.md)
 
