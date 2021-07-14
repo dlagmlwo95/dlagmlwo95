@@ -46,6 +46,23 @@ const user = {
     age : 30,
     gender : 'male',
 }
-Object.entrie
+Object.entries(user); //["name","mike" "age",30 "gender","male"]
+```
+
+### Object.fromEntries\(\) : 키/값 배열을 객체로  
+
+```javascript
+const arr = [
+   ['name':'mike'],
+   ['age':30],
+   ['gender': 'male']
+]
+Object.fromEntries(arr);
+
+/*{
+    name:'mike',
+    age:30,
+    gender:'male'
+}*/
 ```
 
