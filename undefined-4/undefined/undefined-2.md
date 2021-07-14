@@ -35,6 +35,17 @@ const user = {
     age : 30,
     gender : 'male',
 }
-Object.valukeys(user); //["name","age","gender"]
+Object.values(user); //["mike",30,"male"]
+```
+
+### Object.entries\(\):키/값 배열반
+
+```javascript
+const user = {
+    name : 'mike',
+    age : 30,
+    gender : 'male',
+}
+Object.entrie
 ```
 
