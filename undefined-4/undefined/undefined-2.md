@@ -10,3 +10,31 @@ const user = {
 }
 ```
 
+## 자주쓰는 메소드
+
+### Object.assign \(\) :객체복제
+
+키가 같다면 덮어쓰게 된다.
+
+### Object.keys\(\) :  키 배열로 반환
+
+```javascript
+const user = {
+    name : 'mike',
+    age : 30,
+    gender : 'male',
+}
+Object.keys(user); //["name","age","gender"]
+```
+
+### Object.values\(\) :  값 배열로 반환
+
+```javascript
+const user = {
+    name : 'mike',
+    age : 30,
+    gender : 'male',
+}
+Object.valukeys(user); //["name","age","gender"]
+```
+
