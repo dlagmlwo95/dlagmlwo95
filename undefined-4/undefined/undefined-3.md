@@ -48,7 +48,7 @@ symbol함수는 매번 다른 symbol값을 생성하지만, symbol.for 메소드
 
 전역심볼이 아닌 심볼은 keyfor을 사용 할수 없고 description을 사용해야함.
 
-### getonepropertysymbols\(user\) 숨겨진 Symbol key 보는 법 
+### getonepropertysymbols\(\) 숨겨진 Symbol key 보는 법 
 
   
 
