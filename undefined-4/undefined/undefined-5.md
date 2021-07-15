@@ -45,6 +45,15 @@ let user = {name: 'm', age:30};
 let {name : userName, age: userAge} = user;
 console.log(userName); //m
 console.log(userAge); // 30
+
+//기본값
+let user = {
+    name: 'j',
+    age : 18,
+    gender: 'female'
+};
+let {name,age,gender = 'male'} = user;
+console.log(gender);//female
 ```
 
 
