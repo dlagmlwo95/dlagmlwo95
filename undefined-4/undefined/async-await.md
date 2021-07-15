@@ -31,5 +31,7 @@ async function showName(){
 }
 console.log('시작')
 showName()  //1
+
+//예제 promise파일에 있음.
 ```
 
