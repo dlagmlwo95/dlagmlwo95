@@ -53,7 +53,13 @@ pr.then(
 ```javascript
 pr.then(
     function(result){},   //이행되었을때실행
-    function(err){}        //
+    function(err){}        //거부되었을때 실행
 );
+//밑에껄로 바꾸기  catch로  실행하면 가독성을 잡아줄수있음.
+pr.then(
+    function(result){}
+).catch(
+    function(err){}
+)
 ```
 
