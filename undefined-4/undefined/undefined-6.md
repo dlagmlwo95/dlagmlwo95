@@ -63,12 +63,47 @@ const user3 = new User('j',10,'English');
 console.log(user1);
 ```
 
-### 전개구문\(Spread syntax\) : 배열 
+### 전개구문\(Spread syntax\)
 
 ```javascript
+//
 let arr1 = [1,2,3];
 let arr2 = [4,5,6];
 let result = [...arr1,...arr2];
+let result1 = [0,...arr1,...arr2,7,8,9];
 console.log(result); // [ 1,2,3,4,5,6]
+console.log(result1); // [0, 1,2,3,4,5,6,7,8,9]
+
+//
+let user = {name:'m'}
+let m = {...user,age:30}
+console.log(m) // {name:'m',age:30}
+
+//복제
+let arr = [1,2,3];
+let arr2 = [...arr]; //[123]
+
+let user = {name:'m',age:30}
+let user2 = {...user};
+user2.name = 't';
+console.log(user.name); //m
+console.log(user2.name); //t
+
+
+
+/*********************************
+전개구문 arr1을 [4,5,6,1,2,3] 으로
+*********************************/
+let arr1=[1,2,3];
+let arr2=[4,5,6];
+//arr2.reverse().forEach(num=> {
+//    arr1.unshift(num)
+//});
+
+arr1 = [...arr2,...arr1];
+
+console.log(arr1); //[4,5,6,1,2,3]
 ```
+
+
 

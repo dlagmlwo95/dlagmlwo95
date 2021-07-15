@@ -138,4 +138,5 @@
   * [배열메소드2](undefined-4/undefined/2.md)
   * [구조 분해 할당](undefined-4/undefined/undefined-5.md)
   * [나머지 매개변수, 전개구문](undefined-4/undefined/undefined-6.md)
+  * [클로저\(Closure\)](undefined-4/undefined/closure.md)
 
