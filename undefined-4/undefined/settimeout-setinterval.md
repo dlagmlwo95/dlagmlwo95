@@ -4,7 +4,12 @@
 
 ```javascript
 려ㅜfunction showName(name
-setTimeout(showName,3000,'Mike')//함수, 시간, 인수
+let num = 0;
+function showName(){
+    console.log(`접속하신지 ${num++}초 지났습니다);
+}
+const tId = setTimeout(showName,3000,'Mike')
+clearInterval(tId);
 ```
 
 ### setInterval : 일정시간 간격으로 함수를 
