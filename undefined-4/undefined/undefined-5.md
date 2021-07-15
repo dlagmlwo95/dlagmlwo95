@@ -3,6 +3,8 @@
 구조 분해 할당\(destructuring assignment\)  
 구조 분해 할당 구문은 배열이나 객체의 속성을 분해해서 그 값을 변수에 담을 수 있게 하는 
 
+## 
+
 ```javascript
 let [x, y] = [1, 2];
 console.log(x) // 1
@@ -26,6 +28,17 @@ console.log(c); //5
 let [user1, ,user2] = ['m','t','j','t'];
 console.log(user1); //m
 console.log(user2); //j
+```
+
+## 객체구조분해
+
+순서신경안써도됨.
+
+```javascript
+let user = {name: 'm', age:30};
+let {name,age} = user; //let name = user.name;   let age = user.age;
+console.log(name); //m
+console.log(age) //30
 ```
 
 
