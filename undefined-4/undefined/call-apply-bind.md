@@ -44,9 +44,7 @@ console.log(tom);
 배열 요소를 함수 매개변수로 사용할 때   
 두번째 매개변수로 배열을 전달하면 그 요소들을 차례대로 인수로 
 
-
-
-
+call은 매개변수를 직접받고 , apply는 배열형태로 받는다.  apply는 array를 받는다.
 
 ```javascript
 const nums = [3,10,1,6,4];
@@ -57,5 +55,40 @@ const maxNum = Math.max.call(null, ...nums); //call은 ...nums
 
 console.log(minNum);
 console.log(maxNum);
+```
+
+## bind
+
+bind는 this값을 영구히 바꿀 수 있다.
+
+```javascript
+const mike ={
+    name:'mike',
+};
+const tom = {
+    name:'tom'
+};
+function update(birth,job){
+    this.birth = birth;
+    this.job = job;
+};
+const updateMike = update.bind(mike);
+updateMike(1980,"police");
+console.log(mike);
+
+
+const user = {
+    name : "mike",
+    showName : function(){
+        console.log(`hello,${this.name}`);
+    },
+};
+user.showName();
+let fn = user.showName;
+fun.call(user)
+fun.apply(user)
+
+let boundFn = fn.bind(user);
+boundFn();
 ```
 
