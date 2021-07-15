@@ -62,5 +62,46 @@ x5.__proto__ = bmw;
 //이런식으로 계속 상속가능.
 ```
 
+## 생성자함수
 
+```javascript
+const Bmw = function(color){
+  this.color=color;
+  this.wheels=4;
+  this.drive = function(){
+    console.log('drive...')
+  }
+}
+const x5 = new Bmw('red');
+const z4 = new Bmw('blue');
+
+//간단히
+const car = {
+  wheels=4;
+  drive(){
+    console.log('drive...')
+  },
+}
+const Bmw = function(color){
+  this.color=color;  
+}
+const x5 = new Bmw('red');
+const z4 = new Bmw('blue');
+
+x5.__proto__ = car;
+z4.__proto__ = car;
+
+// 더 간단히
+const Bmw = function(color){
+  this.color = color;
+};
+
+Bmw.prototype.wheels = 4;
+Bmw.prototype.drive = function() {
+  console.log('drive...');
+};
+const x5 = new Bmw('red');
+const z4 = new Bmw('blue');
+
+```
 
