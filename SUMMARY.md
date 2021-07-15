@@ -141,4 +141,5 @@
   * [클로저\(Closure\)](undefined-4/undefined/closure.md)
   * [setTimeout / setInterval](undefined-4/undefined/settimeout-setinterval.md)
   * [call, apply, bind](undefined-4/undefined/call-apply-bind.md)
+  * [상속, 프로토타입](undefined-4/undefined/undefined-7.md)
 
