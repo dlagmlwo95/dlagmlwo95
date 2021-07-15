@@ -135,4 +135,5 @@
   * [Number, Math](undefined-4/undefined/number-math.md)
   * [문자열 메소드](undefined-4/undefined/undefined-4.md)
   * [배열메소드1](undefined-4/undefined/1.md)
+  * [배열메소드2](undefined-4/undefined/2.md)
 
