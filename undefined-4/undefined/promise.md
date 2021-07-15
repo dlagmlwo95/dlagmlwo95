@@ -102,7 +102,7 @@ f1(function(){
 
 
 
-////ㅔpromis
+////ㅔpromise체이닝 
 const f1 = () => {
   return new Promise((res,rej) => {
     setTimeout(() => {
@@ -138,5 +138,12 @@ f1()
   .finally(() => {
     console.log('끝');
   });
+  
+//promise.all 한번에실행  모든작업이 될때까지 기다림.
+//promise.race 하나라도 끝나면 끝.
+Promise.all([f1(),f2(),f3()]).then((res) =>{
+  console.log(res);
+  console.timeEnd('x');
+});
 ```
 
