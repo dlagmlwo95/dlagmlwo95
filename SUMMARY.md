@@ -133,4 +133,5 @@
   * [객체 메소드](undefined-4/undefined/undefined-2.md)
   * [심볼](undefined-4/undefined/undefined-3.md)
   * [Number, Math](undefined-4/undefined/number-math.md)
+  * [문자열 메소드](undefined-4/undefined/undefined-4.md)
 
