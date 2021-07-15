@@ -145,5 +145,15 @@ Promise.all([f1(),f2(),f3()]).then((res) =>{
   console.log(res);
   console.timeEnd('x');
 });
+
+// await
+async function order(){
+  const result1 = await f1();
+  const result2 = await f2(result1);
+  const result3 = await f3(result2);
+  console.log(result3);
+  console.log('종료');
+}
+order();
 ```
 
