@@ -39,6 +39,12 @@ let user = {name: 'm', age:30};
 let {name,age} = user; //let name = user.name;   let age = user.age;
 console.log(name); //m
 console.log(age) //30
+
+//새로운 변수 이름으로 
+let user = {name: 'm', age:30};
+let {name : userName, age: userAge} = user;
+console.log(userName); //m
+console.log(userAge); // 30
 ```
 
 
