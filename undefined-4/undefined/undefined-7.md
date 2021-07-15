@@ -103,5 +103,19 @@ Bmw.prototype.drive = function() {
 const x5 = new Bmw('red');
 const z4 = new Bmw('blue');
 
+//더 더 간단히
+const Bmw = function(color){
+  this.color = color;
+};
+
+Bmw.prototype = {
+  constructor: Bmw,
+  wheel : 4,
+  drive() {
+  console.log('drive..');
+  }
+};
+const x5 = new Bmw('red');
+const z4 = new Bmw('blue');
 ```
 
