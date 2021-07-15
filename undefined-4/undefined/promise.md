@@ -60,6 +60,10 @@ pr.then(
     function(result){}
 ).catch(
     function(err){}
+).finally(
+    function(){
+        console.log('주문끝')
+    }
 )
 ```
 
