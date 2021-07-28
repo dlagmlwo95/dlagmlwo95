@@ -31,7 +31,7 @@ npm install prop-types
 package.json 가서 \(버전\)확인하기 
 {% endhint %}
 
-## 리액트\(설치\)
+## 리액트\(배\)
 
 뷰도 동일.
 
