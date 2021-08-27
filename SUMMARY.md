@@ -154,4 +154,6 @@
   * [2강 리액트에선 HTML대신 JSX 써야함 \(JSX 사용법\)](undefined-5/undefined/2-html-jsx-jsx.md)
   * [3강 리액트에선 변수말고 state 만들어 쓰랬죠 \(useState\)](undefined-5/undefined/3-state-usestate.md)
   * [4강 : 리액트에서 버튼에 이벤트 리스너 \(핸들러\) 장착하는 법](undefined-5/undefined/4.md)
+  * [5강 : state 맘대로 변경하는 법](undefined-5/undefined/5-state.md)
+  * [6강 : Component로 HTML 깔끔하게 줄이는 법](undefined-5/undefined/6-component-html.md)
 
